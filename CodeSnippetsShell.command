@@ -1,3 +1,5 @@
 cd ~/Desktop
 git clone https://github.com/imacuser111/CodeSnippets
-mv -f ~/Desktop/CodeSnippets/CodeSnippets ~/Library/Developer/Xcode/UserData/
+cd ~/Library/Developer/Xcode/UserData
+rm -r -f CodeSnippets
+mv ~/Desktop/CodeSnippets/CodeSnippets ~/Library/Developer/Xcode/UserData/CodeSnippets
